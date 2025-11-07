@@ -10,12 +10,7 @@ Paginate = 5                  # this is set low for demonstrating with dummy con
 googleAnalytics = ""
 enableRobotsTXT = true
 
-[module]
-[[module.imports]]
-disable = false
-ignoreConfig = false
-ignoreImports = false
-path = 'github.com/theNewDynamic/gohugo-theme-ananke/v2'
+
 
 [sitemap]
 changefreq = "monthly"
@@ -38,4 +33,6 @@ url = "https://twitter.com/GoHugoIO"
 
 [caches]
   [caches.images]
-    dir = ':cacheDir/images'
+    dir = ':cacheDir/images'theme = 'ananke'
+
+theme = 'ananke'
