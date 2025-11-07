@@ -10,6 +10,8 @@ Paginate = 5                  # this is set low for demonstrating with dummy con
 googleAnalytics = ""
 enableRobotsTXT = true
 
+theme = 'ananke'
+
 
 
 [sitemap]
@@ -31,8 +33,29 @@ recent_posts_number = 3
 name = "twitter"
 url = "https://twitter.com/GoHugoIO"
 
+
 [caches]
+  [caches.assets]
+    dir = ':resourceDir/_gen'
+    maxAge = -1
+  [caches.getcsv]
+    dir = ':cacheDir/:project'
+    maxAge = -1
+  [caches.getjson]
+    dir = ':cacheDir/:project'
+    maxAge = -1
+  [caches.getresource]
+    dir = ':cacheDir/:project'
+    maxAge = -1
   [caches.images]
     dir = ':cacheDir/images'theme = 'ananke'
+    maxAge = -1
+  [caches.misc]
+    dir = ':cacheDir/:project'
+    maxAge = -1
+  [caches.modules]
+    dir = ':cacheDir/modules'
+    maxAge = -1
 
-theme = 'ananke'
+
+
