@@ -48,7 +48,7 @@ url = "https://twitter.com/GoHugoIO"
     dir = ':cacheDir/:project'
     maxAge = -1
   [caches.images]
-    dir = ':cacheDir/images'theme = 'ananke'
+    dir = ':cacheDir/images'
     maxAge = -1
   [caches.misc]
     dir = ':cacheDir/:project'
