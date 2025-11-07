@@ -35,3 +35,7 @@ recent_posts_number = 3
 [[params.ananke_socials]]
 name = "twitter"
 url = "https://twitter.com/GoHugoIO"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
