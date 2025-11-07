@@ -6,13 +6,11 @@ resourceDir = "../resources"
 
 DefaultContentLanguage = "zh"
 SectionPagesMenu = "main"
-Paginate = 5                  # this is set low for demonstrating with dummy content. Set to a higher number
 googleAnalytics = ""
 enableRobotsTXT = true
 
-
-
-
+[pagination]
+  pagerSize = 5
 
 [sitemap]
 changefreq = "monthly"
@@ -30,8 +28,8 @@ background_color_class = "bg-black"
 recent_posts_number = 3
 
 [[params.ananke_socials]]
-name = "twitter"
-url = "https://twitter.com/GoHugoIO"
+name = "知乎"
+url = "https://www.zhihu.com/people/wang-zi-hao-13-68"
 
 
 [caches]
