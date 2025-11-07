@@ -1,7 +1,7 @@
 title = "王子豪的博客 "
 baseURL = "https://zihaowang.online"
 languageCode = "zh-cn"
-theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
+theme = 'ananke'
 resourceDir = "../resources"
 
 DefaultContentLanguage = "zh"
@@ -10,7 +10,7 @@ Paginate = 5                  # this is set low for demonstrating with dummy con
 googleAnalytics = ""
 enableRobotsTXT = true
 
-theme = 'ananke'
+
 
 
 
