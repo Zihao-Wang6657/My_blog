@@ -1,8 +1,15 @@
 title = "王子豪的博客 "
 baseURL = "https://zihaowang.online"
 languageCode = "zh-cn"
-theme = 'ananke'
 resourceDir = "../resources"
+
+
+[module]
+[[module.imports]]
+disable = false
+ignoreConfig = false
+ignoreImports = false
+path = 'github.com/theNewDynamic/gohugo-theme-ananke/v2'
 
 DefaultContentLanguage = "zh"
 SectionPagesMenu = "main"
